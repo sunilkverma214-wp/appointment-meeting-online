@@ -1,0 +1,814 @@
+/* @font-face {
+    font-family: 'Proxima-Nova-Alt-Bold';
+    src: url('fonts/Proxima-Nova-Alt-Bold.eot');
+    src: local('☺'), url('fonts/css/Proxima-Nova-Alt-Bold.woff') format('woff'), url('fonts/Proxima-Nova-Alt-Bold.ttf') format('truetype'), url('fonts/Proxima-Nova-Alt-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Alt-Light';
+    src: url('fonts/Proxima-Nova-Alt-Light.eot');
+    src: local('☺'), url('fonts/Proxima-Nova-Alt-Light.woff') format('woff'), url('fonts/Proxima-Nova-Alt-Light.ttf') format('truetype'), url('fonts/Proxima-Nova-Alt-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Alt-Thin';
+    src: url('fonts/Proxima-Nova-Alt-Thin.eot');
+    src: local('☺'), url('fonts/Proxima-Nova-Alt-Thin.woff') format('woff'), url('fonts/Proxima-Nova-Alt-Thin.ttf') format('truetype'), url('fonts/Proxima-Nova-Alt-Thin.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Black';
+    src: url('fonts/Proxima-Nova-Black.eot');
+    src: local('☺'), url('fonts/Proxima-Nova-Black.woff') format('woff'), url('fonts/Proxima-Nova-Black.ttf') format('truetype'), url('fonts/Proxima-Nova-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Extrabold';
+    src: url('fonts/Proxima-Nova-Extrabold.eot');
+    src: local('☺'), url('fonts/Proxima-Nova-Extrabold.woff') format('woff'), url('fonts/Proxima-Nova-Extrabold.ttf') format('truetype'), url('fonts/Proxima-Nova-Extrabold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Thin';
+    src: url('fonts/Proxima-Nova-Thin.eot');
+    src: local('☺'), url('fonts/Proxima-Nova-Thin.woff') format('woff'), url('fonts/Proxima-Nova-Thin.ttf') format('truetype'), url('fonts/Proxima-Nova-Thin.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+
+
+@font-face {
+    font-family: 'Effra';
+    src: url('fonts/Effra_Std_Rg.eot');
+    src: url('fonts/Effra_Std_Rg.eot') format('embedded-opentype'),
+         url('fonts/Effra_Std_Rg.woff2') format('woff2'),
+         url('fonts/Effra_Std_Rg.woff') format('woff'),
+         url('fonts/Effra_Std_Rg.ttf') format('truetype'),
+         url('fonts/Effra_Std_Rg.svg#Effra_Std_Rg') format('svg');
+}
+@font-face {
+    font-family: 'EffraBold';
+    src: url('fonts/EffraBold.eot');
+    src: local('☺'), url('fonts/EffraBold.woff') format('woff'), url('fonts/EffraBold.ttf') format('truetype'), url('fonts/EffraBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Arial';
+    src: url('ArialMT.eot');
+    src: local('Arial'), local('ArialMT'),
+        url('fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ArialMT.woff2') format('woff2'),
+        url('fonts/ArialMT.woff') format('woff'),
+        url('fonts/ArialMT.ttf') format('truetype'),
+        url('fonts/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArialBold';
+    src: url('../fonts/Arial-BoldMT.eot');
+    src: local('Arial Bold'), local('Arial-BoldMT'),
+        url('fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('fonts/Arial-BoldMT.woff') format('woff'),
+        url('fonts/Arial-BoldMT.ttf') format('truetype'),
+        url('fonts/Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+.seller-container {
+    margin-left: 90px;
+    margin-right: 90px;    
+}
+.seller-container h1 {
+    margin: 20px auto;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;  
+	font-family: 'Effra', sans-serif;
+}
+div#content {
+    background: #1F1E1D;
+}
+section.main-section {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+ 
+.shephared-block {    
+    padding-left: 20px;
+}
+.container.maxwidth {   
+    background: #fff;
+    max-width: 1300px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+ 
+.row.min-border-height {
+    min-height: 649px;
+}
+.shephared-block {
+    border-right: 1px solid #EAEAEA;
+    height: 100%;
+}
+.shephared-name {
+    /* font-family: 'EffraBold'; */
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.32px;
+    color: #757575;
+}
+ .i-pding:before {
+    color: #757575;
+}
+h3.meeting-with-div {
+    font-size: 30px;
+    line-height: 35px;
+    /* font-family: 'EffraBold'; */
+    margin-top: 6px;
+    margin-bottom: 28px;
+    /*width: 281px;*/
+}
+span#time_duration {
+    letter-spacing: -0.36px;
+    color: #757575;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 26px;
+    /* font-family: 'EffraBold'; */
+}
+select#shephared-dropdown {
+    border: none;
+}
+
+/*##############################calender css*/
+.calendar-heding {
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+    line-height: 25px;
+    /* font-family: 'EffraBold'; */
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.calendar-container {
+	background: #fff;
+	width: 450px;
+	border-radius: 10px;
+/*	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);*/
+}
+
+ 
+.calendar-container .calendar-header {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 34px 0px;
+    justify-content: space-between;
+}
+
+ 
+.calendar-header .calendar-navigation {
+    display: flex;
+    margin-top: 0px;
+}
+
+.calendar-header .calendar-navigation span {
+	height: 38px;
+	width: 38px;
+	margin: 0 1px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 50%;
+	user-select: none;
+	color: #aeabab;
+	font-size: 1.9rem;
+}
+
+.calendar-navigation span:last-child {
+	margin-right: -10px;
+}
+
+.calendar-header .calendar-navigation span:hover {
+	background: #f2f2f2;
+}
+
+.calendar-header .calendar-current-date {
+	font-weight: 500;
+	font-size: 1.45rem;
+}
+
+.calendar-header .calendar-current-date {
+    font-weight: 500;
+    font-size: 18px;
+    /* font-family: 'Effra'; */
+    line-height: 20.63px;
+}
+
+.calendar-body {
+	padding: 0px 0px;
+}
+
+ul.calendar-weekdays {
+    text-align: start;
+    text-transform: uppercase;
+     
+}
+.calendar-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.calendar-body .calendar-dates {
+	margin-bottom: 20px;
+}
+
+.calendar-body li {
+	width: calc(100% / 7);
+	font-size: 1.07rem;
+	color: #010101;
+}
+.calendar-body {
+    padding: 0px 0px;
+    margin-left: -16px;
+}
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20.63px;
+    color: #010101;
+    /* font-family: 'Effra'; */
+    font-weight: 600;
+    /*width: 28px;
+    margin-right: 31px;*/
+}
+span#calendar-next {
+    /* color: #0BC4E0; */
+    font-weight: 300;
+}
+span#calendar-prev {
+    color: #757575;
+    font-weight: 300;
+}
+.calendar-body .calendar-dates li {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+/*    width: 28px;*/
+    font-size: 18px;
+    /* font-family: 'Effra'; */
+    line-height: 20.63px;
+/*    margin-right: 31px;*/
+    color: #636363;
+    font-weight: lighter;
+}
+.calendar-dates li.inactive {
+	color: #aaa;
+}
+
+.calendar-dates li.active {
+	color: #fff !important;
+}
+
+.calendar-dates li.currentDayActive {
+	color: #fff;
+}
+ 
+
+.calendar-dates li::before {
+	position: absolute;
+	content: "";
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* .calendar-dates > li.active::before {
+	background: #0BC4E0 !important;
+} */
+
+.calendar-dates > li.currentDayActive:before {
+    background: gray;
+}
+
+.calendar-dates li:not(.active):hover::before {
+	background: #e4e1e1;
+}
+
+.calendar-dates li:not(.currentDayActive):hover::before {
+	color: red;
+}
+.main-div {
+    display: flex; 
+/*    padding: 0 51px;*/
+    align-items: center;
+    justify-content: center;
+}
+
+/*##############################end calender css*/
+ #time-slots li {
+    list-style: none;
+    border: 1.5px solid #0BC4E04D;
+    margin-bottom: 12px;
+    padding: 17px 0px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    /* color: #0BC4E0; */
+    opacity: 1;
+    line-height: 20px;
+    /* font-family: 'Effra'; */
+    cursor: pointer;
+    width: 266px;
+    border-radius: 4px;
+}
+
+div#selected-date {
+    font-size: 18px;
+    text-align: left;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+    font-weight: 500;
+    /* font-family: 'Effra'; */
+}
+
+div#time-slot-container {
+    margin-top: 93px; 
+    
+}
+.shephared-image {
+    width: 72px;
+/*    margin-top: 15px;*/
+    margin-bottom: 20px;
+}
+
+img.shephared-img-src {
+    border-radius: 50%;
+    width: 100%;
+    height:72px;
+}
+ ul.shephrddropdown-content li img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.durartion{
+	margin-bottom: 10px;
+}
+.i-pding{
+	padding-right: 14px;
+}
+ 
+ 
+ul#time-slots {
+    padding: 0;
+    margin-top: 35px;
+    min-height: 340px;
+    overflow: auto;
+    height: 340px;
+    width: 300px;
+    scrollbar-width: thin;
+}
+
+
+#time-slots::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#time-slots::-webkit-scrollbar
+{
+/*	width: 5px;*/
+	background-color: #F5F5F5;
+}
+
+#time-slots::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #adb5bd;
+}
+ 
+ 
+ 
+.activeLi {
+    /* background: #0BC4E0; */
+    color: #fff !important;
+}
+
+.main-section.schedulemeet .container.cutom-container-width {
+	margin-bottom: 20px !important;
+}
+section.container.cutom-container-width {
+    /* max-width: 980px !important; */
+    background: #D9EED5;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 20.63px;
+    /* font-family: 'Effra';     */
+    align-items: center;
+    margin: 40px auto 30px auto;
+    display: block;
+    width: 100%;
+}
+.top-heading-sec{
+	padding: 0px 0px 30px 0px;
+}
+.top-heading-sec div#sub-heading {
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 16px;
+    /* font-family: 'EffraBold'; */
+}
+
+.shephared-block {
+    padding-top: 30px;
+}
+
+
+ 
+ form#autoLoginForm {
+    display: none;
+}
+ 
+  /* Style for the custom dropdown */
+        .custom-dropdown {
+            position: relative;
+            display: inline-block;
+/*            border: 1px solid #ccc;*/
+            /* padding: 10px; */
+            cursor: pointer;
+            width:200px;
+            line-height: 18px;
+            color: #757575;
+        }
+
+        .shephrddropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            width: 200px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .shephrddropdown-content li {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .shephrddropdown-content li img {
+            width: 20px; /* Adjust the image width as needed */
+            margin-right: 10px;
+        }
+
+        /* Show the dropdown on hover */
+        .custom-dropdown:hover .shephrddropdown-content {
+            display: block;
+        }
+
+        /* Style for the selected item */
+        .selected-shephred-item {
+/*            display: flex;*/
+            align-items: center;
+        }
+        .custom-dropdown i.fa-solid.fa-angle-down {
+            float: right;
+        }
+
+        .selected-shephred-item img {
+            width: 20px; /* Adjust the image width as needed */
+            margin-right: 10px;
+        }
+        .fa-angle-down{
+				    padding-left: 8px;
+				    position: relative;
+				    top: 2px;
+        }
+        span.hideshowcross {
+            display: block ruby;
+            padding: 20px 8px 0px 0px;
+            text-align: right;
+        }
+.countryselect {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+.countryselect .globeIcon {
+	flex: 0 1 auto;
+}
+
+div#timeWithTimeZonesec {
+	margin-top: 42px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	font-size: 16px;
+	font-family: 'Effra';
+	vertical-align: middle;
+	line-height: 17px;
+}
+ 
+span#selecLabl {
+    margin-right: 8px;
+	color: #000D12 !important;
+	padding-left: 0;
+}
+span#timeWithTimeZone {
+	vertical-align: middle;
+	line-height: 18px;
+	flex: 1;
+}
+select#user_timezone_option:focus {
+    border: none;
+    outline: none;
+}
+.countryselect #user_timezone_option {
+	margin: 0 !important;
+}
+
+button.disabledbutton {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+
+#myCustomModal .modal-content {
+	width: 500px;
+    height: auto;
+    min-height: 356px;
+}
+#myCustomModal .modal-content .modal-body {
+    padding: 0px 30px;
+}
+#myCustomModal .modal-dialog , #meetingSuccessModal .modal-dialog {    
+   /* top: 50% !important;    
+   // transform: translateY(-50%) !important;*/
+    width: 500px;
+}
+div#meetingSuccessModal .modal-body {
+    padding: 0px;
+    text-align: center;
+    font: normal normal normal 24px/30px Arial;
+    letter-spacing: 0px;
+    color: #D1D1D1;
+    opacity: 1;
+    flex: 0;
+}
+.suceesmsg-meting {
+    height: 57px;
+    line-height: 30px;
+}
+div#meetingSuccessModal .modal-content {
+    text-align: center;
+    width: 480px;
+    /*height: 199px;*/
+    padding: 20px;
+}
+div#meetingSuccessModal .modal-header{
+	 line-height: 19px;
+	 margin-top: 0px;
+	 padding: 0;
+}
+ #selecLabl {
+	color: #000D12 !important;
+	padding-left: 0;
+}
+ 
+	.ourCustomModalcss .modal-content {
+    color: antiquewhite;   
+    background: #171616 0% 0% no-repeat padding-box;
+		opacity: 0.9;
+}
+.ourCustomModalcss .modal-header {
+    padding: 12px;
+    border-bottom: none;
+}
+.ourCustomModalcss  h4.modal-title {
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #A5A5A5;
+    opacity: 1;
+    font-size: 34px;
+    /* font-family: ArialBold; */
+    line-height: 38px;
+    padding-bottom: 30px 
+}
+.ourCustomModalcss .modal-body{
+	padding-top:0px;
+
+}
+.ourCustomModalcss .modal-body .mt-3 {
+    margin-top: 30px !important;
+}
+.ourCustomModalcss .meeting-title-css {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #000D12;
+	opacity: 1;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.45;
+	padding-bottom: 4px;
+	text-transform: uppercase;
+}
+#myCustomModal .modal-title {
+	text-transform: capitalize !important;
+}
+.ourCustomModalcss .meeting-time-css {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #000D12;
+	opacity: 1;
+	font-size: 18px;
+	line-height: 1.45;
+	font-weight: 400;
+}
+.confirmDiv .meeting-time-css {
+	text-align: center;
+	margin: 0 0 15px;
+	font-weight: 500;
+}
+.ourCustomModalcss .provideDiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ourCustomModalcss button.cancel_meting {
+    /* border: 1.5px solid #0BC4E0; */
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    /* color: #0BC4E0; */
+    text-transform: capitalize;    
+    font-size: 18px;
+    /* font-family: Arial; */
+    padding: 8px 46px;
+    line-height: 20px;
+    background: transparent;
+}
+.ourCustomModalcss button.cancel_meting.activeGreen {
+    /* background: #0BC4E0; */
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 26px;
+}
+div#meetingSuccessModal {
+    text-align: center;
+}
+ 
+
+#meeting_reason::placeholder {
+    font-size: 14px; /* Set the font size of the placeholder text */
+}
+#meetingSuccessModal button.cancel_meting.activeGreen {
+    /* background: #0BC4E0; */
+    margin: 24px 0px 20px 0px;
+    width: 138px;
+    padding: 9px 36px;
+    text-align: center;
+    font: normal normal normal 18px/18px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+#myCustomModal .botum-btns{
+	margin-top:25px;
+}
+.ourCustomModalcss .botum-btns{
+	text-align: center;
+}
+.ourCustomModalcss .modal-header {
+    padding: 20px 20px 4px 20px;
+    border-bottom: none;
+    position: relative;
+    display: inline-block;
+    text-align: end;
+}
+.ourCustomModalcss a.crosBtn { 
+     
+    line-height: 16px;
+    right: 20px;
+}
+.ourCustomModalcss .modal-header {
+    padding: 0px 20px 0px 20px;
+    border-bottom: none;
+    margin-top: 20px;
+}
+.ourCustomModalcss button.cancel_meting#cansel {
+    /* color: #0BC4E0; */
+    background-color: #212020;
+}
+.shephrddropdown-content{
+    display: none;
+}
+select#user_timezone_option {
+	border: none;
+	line-height: 1.45;
+	padding: 12px 20px;
+}
+button#confirm_mycustom_meting {
+    /* background: #0BC4E0; */
+    color: #fff;
+}
+
+.modal .modal-content {     
+    opacity: 10 !important;
+}
+#click_btn_action_welcome_sec {
+    cursor: pointer;
+} 
+/* li.availableDay {
+    color: #0BC4E0 !important;
+} */
+
+@media only screen and (max-width: 900px) {
+#time-slots li {
+	padding: 12px 0px;
+	font-size: 16px;
+	line-height: 1.25;
+}
+.calendar-body .calendar-weekdays li {
+	font-size: 12px;
+	line-height: 1.25;
+}
+.calendar-body .calendar-dates li {
+	font-size: 16px;
+	line-height: 1.25;
+	margin-top: 25px;
+}
+h3.meeting-with-div {
+	font-size: 21px;
+	line-height: 1.25;
+}
+.i-pding {
+	padding-right: 10px;
+}
+
+}
+@media only screen and (max-width: 575px) {
+
+.calendar-container {
+	width: auto;
+}
+.page-id-27 div#time-slot-container {
+	margin-top: 35px;
+}
+.shephared-block {
+	border-right: unset;
+}
+
+
+}
